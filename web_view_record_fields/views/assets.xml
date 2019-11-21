@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Add javascript assets -->
+    <template id="assets_backend" name="account_bank_statement_import assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/web_view_record_fields/static/src/js/debug_manager_included.js"></script>
+        </xpath>
+    </template>
+
+</odoo>

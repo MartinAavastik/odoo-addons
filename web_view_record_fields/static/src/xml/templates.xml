@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+	<!-- Add button to debug menu -->
+    <t t-extend="WebClient.DebugManager.View">
+        <t t-jquery="a[data-action='get_metadata']" t-operation="after">
+            <a role="menuitem" href="#" data-action="get_all_fields_data" class="dropdown-item">View Record Fields</a>
+        </t>
+    </t>
+
+</templates>
